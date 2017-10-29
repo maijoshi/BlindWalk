@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E1B69501FA30433002E46DC /* Map.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9E1B694F1FA30433002E46DC /* Map.tmx */; };
+		9E1B69581FA30918002E46DC /* Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E1B69571FA30918002E46DC /* Black.png */; };
+		9E1B695A1FA3B874002E46DC /* super_mario.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E1B69591FA3B874002E46DC /* super_mario.png */; };
+		9E1B69661FA3C1E5002E46DC /* Tan.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E1B69651FA3C1E5002E46DC /* Tan.png */; };
+		9E712F961FA65A2300F283C3 /* Level2.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9E712F951FA65A2300F283C3 /* Level2.tmx */; };
 		9EE2E3591FA2C67B00C509F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE2E3581FA2C67B00C509F9 /* AppDelegate.swift */; };
 		9EE2E35B1FA2C67B00C509F9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9EE2E35A1FA2C67B00C509F9 /* GameScene.sks */; };
 		9EE2E35D1FA2C67B00C509F9 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9EE2E35C1FA2C67B00C509F9 /* Actions.sks */; };
@@ -15,9 +20,17 @@
 		9EE2E3641FA2C67B00C509F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE2E3621FA2C67B00C509F9 /* Main.storyboard */; };
 		9EE2E3661FA2C67B00C509F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EE2E3651FA2C67B00C509F9 /* Assets.xcassets */; };
 		9EE2E3691FA2C67B00C509F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE2E3671FA2C67B00C509F9 /* LaunchScreen.storyboard */; };
+		9EE2E3751FA2C86F00C509F9 /* JSTileMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE2E3721FA2C86F00C509F9 /* JSTileMap.m */; };
+		9EE2E3761FA2C86F00C509F9 /* LFCGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE2E3741FA2C86F00C509F9 /* LFCGzipUtility.m */; };
+		9EE2E3791FA2CA1F00C509F9 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE2E3781FA2CA1F00C509F9 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E1B694F1FA30433002E46DC /* Map.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Map.tmx; sourceTree = "<group>"; };
+		9E1B69571FA30918002E46DC /* Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Black.png; sourceTree = "<group>"; };
+		9E1B69591FA3B874002E46DC /* super_mario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = super_mario.png; sourceTree = "<group>"; };
+		9E1B69651FA3C1E5002E46DC /* Tan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tan.png; sourceTree = "<group>"; };
+		9E712F951FA65A2300F283C3 /* Level2.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Level2.tmx; sourceTree = "<group>"; };
 		9EE2E3551FA2C67B00C509F9 /* BlindWalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlindWalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE2E3581FA2C67B00C509F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EE2E35A1FA2C67B00C509F9 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -28,6 +41,12 @@
 		9EE2E3651FA2C67B00C509F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EE2E3681FA2C67B00C509F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EE2E36A1FA2C67B00C509F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EE2E3701FA2C86E00C509F9 /* BlindWalk-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlindWalk-Bridging-Header.h"; sourceTree = "<group>"; };
+		9EE2E3711FA2C86F00C509F9 /* JSTileMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTileMap.h; sourceTree = "<group>"; };
+		9EE2E3721FA2C86F00C509F9 /* JSTileMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTileMap.m; sourceTree = "<group>"; };
+		9EE2E3731FA2C86F00C509F9 /* LFCGzipUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCGzipUtility.h; sourceTree = "<group>"; };
+		9EE2E3741FA2C86F00C509F9 /* LFCGzipUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCGzipUtility.m; sourceTree = "<group>"; };
+		9EE2E3781FA2CA1F00C509F9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EE2E3791FA2CA1F00C509F9 /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +66,7 @@
 			children = (
 				9EE2E3571FA2C67B00C509F9 /* BlindWalk */,
 				9EE2E3561FA2C67B00C509F9 /* Products */,
+				9EE2E3771FA2CA1F00C509F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,17 +81,35 @@
 		9EE2E3571FA2C67B00C509F9 /* BlindWalk */ = {
 			isa = PBXGroup;
 			children = (
+				9E1B694F1FA30433002E46DC /* Map.tmx */,
+				9E1B69591FA3B874002E46DC /* super_mario.png */,
 				9EE2E3581FA2C67B00C509F9 /* AppDelegate.swift */,
 				9EE2E35A1FA2C67B00C509F9 /* GameScene.sks */,
 				9EE2E35C1FA2C67B00C509F9 /* Actions.sks */,
+				9E712F951FA65A2300F283C3 /* Level2.tmx */,
+				9E1B69571FA30918002E46DC /* Black.png */,
 				9EE2E35E1FA2C67B00C509F9 /* GameScene.swift */,
+				9E1B69651FA3C1E5002E46DC /* Tan.png */,
 				9EE2E3601FA2C67B00C509F9 /* GameViewController.swift */,
 				9EE2E3621FA2C67B00C509F9 /* Main.storyboard */,
+				9EE2E3711FA2C86F00C509F9 /* JSTileMap.h */,
+				9EE2E3721FA2C86F00C509F9 /* JSTileMap.m */,
+				9EE2E3731FA2C86F00C509F9 /* LFCGzipUtility.h */,
+				9EE2E3741FA2C86F00C509F9 /* LFCGzipUtility.m */,
 				9EE2E3651FA2C67B00C509F9 /* Assets.xcassets */,
 				9EE2E3671FA2C67B00C509F9 /* LaunchScreen.storyboard */,
 				9EE2E36A1FA2C67B00C509F9 /* Info.plist */,
+				9EE2E3701FA2C86E00C509F9 /* BlindWalk-Bridging-Header.h */,
 			);
 			path = BlindWalk;
+			sourceTree = "<group>";
+		};
+		9EE2E3771FA2CA1F00C509F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EE2E3781FA2CA1F00C509F9 /* libz.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +145,7 @@
 					9EE2E3541FA2C67B00C509F9 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = JH2EJXQD6R;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -133,11 +173,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E1B69661FA3C1E5002E46DC /* Tan.png in Resources */,
+				9E1B69581FA30918002E46DC /* Black.png in Resources */,
+				9E1B69501FA30433002E46DC /* Map.tmx in Resources */,
 				9EE2E3641FA2C67B00C509F9 /* Main.storyboard in Resources */,
+				9E1B695A1FA3B874002E46DC /* super_mario.png in Resources */,
 				9EE2E35B1FA2C67B00C509F9 /* GameScene.sks in Resources */,
 				9EE2E3661FA2C67B00C509F9 /* Assets.xcassets in Resources */,
 				9EE2E3691FA2C67B00C509F9 /* LaunchScreen.storyboard in Resources */,
 				9EE2E35D1FA2C67B00C509F9 /* Actions.sks in Resources */,
+				9E712F961FA65A2300F283C3 /* Level2.tmx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,8 +194,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EE2E35F1FA2C67B00C509F9 /* GameScene.swift in Sources */,
+				9EE2E3761FA2C86F00C509F9 /* LFCGzipUtility.m in Sources */,
 				9EE2E3611FA2C67B00C509F9 /* GameViewController.swift in Sources */,
 				9EE2E3591FA2C67B00C509F9 /* AppDelegate.swift in Sources */,
+				9EE2E3751FA2C86F00C509F9 /* JSTileMap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,11 +320,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = JH2EJXQD6R;
 				INFOPLIST_FILE = BlindWalk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MJ.BlindWalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BlindWalk/BlindWalk-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -286,11 +336,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = JH2EJXQD6R;
 				INFOPLIST_FILE = BlindWalk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MJ.BlindWalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BlindWalk/BlindWalk-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -314,6 +366,7 @@
 				9EE2E36F1FA2C67B00C509F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" nextobjectid="1">
+    <tileset firstgid="1" name="blindwalk" tilewidth="32" tileheight="32" tilecount="50" columns="50">
+        <image source="Tan.png" width="352" height="128"/>
+    </tileset>
+    <layer name="Background" width="50" height="50">
+        <data encoding="base64" compression="zlib">
+            eeJztwwEJAAAMBKHr3+DbLsdAwVVTVVVVVVVVVVXV5w/xaNZw
+        </data>
+    </layer>
+</map>
+
